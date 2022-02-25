@@ -1,0 +1,89 @@
+.faq_container {
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+    padding: 25px;
+}
+
+.title_container h2 {
+    color: hsl(229, 31%, 21%);
+}
+
+.title_container p {
+    color: hsl(229, 8%, 60%);
+}
+
+.faq_accordion_container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq_accordion_container .list {
+    list-style: none;
+    padding: 0;
+}
+
+.faq_accordion_container li .list_item p {
+    text-align: left;
+    color: hsl(229, 8%, 60%);
+}
+
+.faq_accordion_container li .list_item h3 {
+    text-align: left;
+    color: hsl(229, 31%, 21%);;
+    padding-bottom: 5px;
+}
+
+.faq_accordion_container li .list_item .list_item_title {
+    width: 100%;
+    border-bottom: 1px solid hsla(229, 8%, 60%, 0.2);
+}
+
+.faq_accordion_container li .list_item .list_item_title .div {
+    width: 20px;
+    height: 10px;
+    background-image: url('../../assets/images/icon-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.faq_accordion_container li .list_item .list_item_title .active_img {
+    background-image: url('../../assets/images/icon-arrow-red.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.faq_accordion_container li .list_item .list_item_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq_accordion_container li .list_item .content {
+    display: none;
+}
+
+.faq_accordion_container li .list_item .active {
+    display: block;
+}
+
+.faq_container .button {
+    height: 40px;
+    border: none;
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -4px rgba(163, 163, 163, 0.4);
+    color: white;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+    margin-top: 30px;
+    width: 100px;   
+}
+
+
+@media(min-width: 800px) {
+
+}
