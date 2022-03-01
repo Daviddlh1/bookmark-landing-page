@@ -52,11 +52,13 @@ export default function FeaturesSection() {
                 </div>)}
                 {display == 2 && (<div className={styles.slide_container}>
                     <img className={styles.image} src={tab3}  alt="slide-picture"/>
-                    <h2>Share your bookmarks</h2>
-                    <p>
-                        Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.    
-                    </p>
-                    <button className={styles.button}>More info</button>
+                    <div className={styles.info}>
+                        <h2>Share your bookmarks</h2>
+                        <p>
+                            Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.    
+                        </p>
+                        <button className={styles.button}>More info</button>
+                    </div>
                 </div>)}
             </div>
             <div>

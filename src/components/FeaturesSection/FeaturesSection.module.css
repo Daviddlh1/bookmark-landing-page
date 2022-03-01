@@ -37,6 +37,7 @@
 
 .slide_container {
     width: 100%;
+    padding: 25px;
 }
 
 .slide_container .image {
@@ -85,7 +86,7 @@
     }
 
     .slide_container {
-        display: flex
+        display: flex;
     }
     .slide_container .image{
         width: 50%;
@@ -97,6 +98,7 @@
         justify-content: center;
         align-items: center;
         margin-left: 50px;
+        padding: 25px;
     }
 }
 @media (min-width: 1200px) {
